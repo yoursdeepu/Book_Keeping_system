@@ -1,0 +1,32 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "Book_Id": 101,
+      "Book_name": "Python",
+      "Author_name": "james bond",
+      "price": 2000
+    },
+    {
+      "id": 2,
+      "Book_Id": 102,
+      "Book_name": "java programming",
+      "Author_name": "sk nayak",
+      "price": 5000
+    },
+    {
+      "id": 3,
+      "Book_Id": 103,
+      "Book_name": "C programming",
+      "Author_name": "Rk sharma",
+      "price": 8000
+    },
+    {
+      "Book_Id": "106",
+      "Book_name": "maths",
+      "Author_name": "chand",
+      "price": "6500",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/max.css">
+    <style>
+        #box2{
+            border: 2px solid white;
+            background-color: rgb(240, 240, 240);
+            width: 600px;
+            display: inline-block;
+            border-radius: 15px;
+            padding: 20px;
+            border: 2px solid rgb(49, 49, 255);
+            box-shadow: 2px 2px 8px rgb(101, 101, 101);
+        }
+        
+        #name{
+            float: left;
+            width: 250px;
+            color: rgb(0, 74, 211);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+        }
+        #mybtn{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            padding: 10px;
+            background-color: rgb(47, 47, 255);
+            border: none;
+            border-radius: 10px;
+            font-size: large;
+        }
+        #mybtn:hover{
+            box-shadow: 2px 2px 7px gray;
+            
+        }
+
+    </style>
+    <title>Insert Data</title>
+</head>
+<body background="bgred.jpg">
+    <div id="box">
+        <div id="logo" ><img src="book.png" alt=""></div>
+        
+        <div id="menu">
+        <a href="index.html"><span>H</span>ome</a>
+        <a href="insert.html"><span>I</span>nsert record</a>
+        <a href="display.html"><span>D</span>isplay record</a>
+        <a href="searchname.html"><span>S</span>earch (NAME)</a>
+        <a href="searchid.html"><span>S</span>earch (ID)</a>
+        <a href="update.html"><span>U</span>pdate</a>
+        <a href="delete.html"><span>D</span>elete</a>
+
+    </div>
+
+    <h1 id="head" >Insert Books Record.</h1>
+    
+    <div id="box2">
+        <br>
+     <p id="name"> Books ID :</p> <input class="f1" type="text" name="" id="bid">
+     <br><br>
+     <p id="name"> Books Name :</p> <input  class="f1" type="text" name="" id="bname">
+     <br><br>
+     <p id="name"> Author : </p><input class="f1"  type="text" name="" id="author">
+     <br><br>
+      <p id="name"> Price :</p> <input class="f1"  type="text" name="" id="price">
+     <br><br>
+     <input type="submit" id="mybtn" value="Data Save!!" name="">
+    </div>
+    </div>
+    <script src="js/save.js"></script>
+
+</body>
+</html>
